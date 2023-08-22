@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(189, 194, 31);
+  gap: 35px;
+  /* margin: 35px 20px 45px; */
+  padding: 20px 35px 49px 50px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  color: blue;
+  border: 1px solid black;
+}
+
+.grid-container > :hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
