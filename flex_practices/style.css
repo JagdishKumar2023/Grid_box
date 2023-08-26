@@ -26,24 +26,25 @@
   background-color: aqua;
   justify-content: center;
   margin: 300px;
-  /* width: 100px; */
-  /* position: fixed; */
+  width: 100px;
+  height: 20px;
   box-shadow: 8px 9px 7px 4px;
   cursor: pointer;
   /* overflow: scroll; */
 }
 
-.d1 > div {
+.d1 > .div {
   background-color: red;
+  background-size: cover;
   margin: 20px;
   padding: 40px;
   font-size: 30px;
-  height: 150px;
-  /* align-items: center; */
+  /* height: 150px; */
+  align-items: center;
   width: 200px;
-  /* justify-items: center; */
-  padding-left: 9%;
+  justify-items: center;
+  padding-left: 40px;
   box-shadow: 8px 9px 7px 4px;
-  line-height: 150px;
+  line-height: 100px;
   /* text-align: center; */
 }
