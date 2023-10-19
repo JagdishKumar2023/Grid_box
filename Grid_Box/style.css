@@ -7,18 +7,18 @@
   background-color: indianred;
   padding: 20px;
   display: grid;
-  grid-template-areas:
+  /* grid-template-areas:
     "header header header header header header"
     "menu main main main right right"
-    "menu footer footer footer footer footer";
+    "menu footer footer footer footer footer"; */
   /* grid-template-rows: 100px 100px 100px; */
-  /* grid-column-gap: 30px;
-  grid-row-gap: 20px;
+  /* grid-column-gap: 30px; */
+  /* grid-row-gap: 20px;
   justify-content: space-evenly;
   height: 400px;
-  align-content: space-evenly; */
+  align-content: space-evenly;
   grid-gap: 10px;
-  height: 400px;
+  height: 400px; */
 }
 
 .grid_item {
